@@ -1,0 +1,35 @@
+.conteiner{
+    justify-content: space-between;
+    display: grid;
+}
+.conteiner img{
+    grid-column: 1/3;
+    grid-row: 1;
+    width: 100%;
+    height: 70px;
+}
+
+.conteiner h2{
+    color:blanchedalmond;
+    margin-left: 5px;
+    grid-column: 1;
+    grid-row: 1;
+}
+.conteiner span{
+    color: coral;
+    float: left;
+    grid-column: 2;
+    grid-row: 1/2;
+}
+pre{
+    display: none;
+}
+li i{
+    font-size: smaller;
+}
+ol{
+    display: inline-block;
+}
+a:hover{
+    text-decoration: line-through;
+}
